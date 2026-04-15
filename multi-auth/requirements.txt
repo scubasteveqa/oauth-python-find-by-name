@@ -1,0 +1,7 @@
+shiny
+snowflake-connector-python
+databricks-sql-connector
+pandas
+plotly
+shinywidgets
+posit-sdk
