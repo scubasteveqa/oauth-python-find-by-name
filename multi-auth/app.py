@@ -6,11 +6,9 @@ both Snowflake and Databricks integration GUIDs by name. Falls back
 to find_by(integration_type=...) if name env vars are not set.
 
 Required env vars:
-  SNOWFLAKE_ACCOUNT           - Snowflake account identifier
   SNOWFLAKE_WAREHOUSE         - Snowflake warehouse
   SNOWFLAKE_DATABASE          - Snowflake database
   SNOWFLAKE_SCHEMA            - Snowflake schema
-  DATABRICKS_HOST             - Databricks workspace hostname
   DATABRICKS_HTTP_PATH        - Databricks SQL warehouse HTTP path
 
 Optional env vars:
