@@ -1,6 +1,0 @@
-shiny
-databricks-sql-connector
-pandas
-plotly
-shinywidgets
-posit-sdk
