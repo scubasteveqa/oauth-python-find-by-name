@@ -6,7 +6,6 @@ the Snowflake integration GUID by name. Falls back to
 find_by(integration_type=SNOWFLAKE) if the name env var is not set.
 
 Required env vars:
-  SNOWFLAKE_ACCOUNT           - Snowflake account identifier
   SNOWFLAKE_WAREHOUSE         - Snowflake warehouse
   SNOWFLAKE_DATABASE          - Snowflake database
   SNOWFLAKE_SCHEMA            - Snowflake schema
