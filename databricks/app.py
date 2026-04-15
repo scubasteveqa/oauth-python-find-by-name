@@ -6,7 +6,6 @@ the Databricks integration GUID by name. Falls back to
 find_by(integration_type=DATABRICKS) if the name env var is not set.
 
 Required env vars:
-  DATABRICKS_HOST             - Databricks workspace hostname
   DATABRICKS_HTTP_PATH        - Databricks SQL warehouse HTTP path
 
 Optional env vars:
